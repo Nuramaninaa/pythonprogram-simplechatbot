@@ -1,9 +1,11 @@
 from tkinter import *                       
 from random import choice                       
  
-                                                                       
-ask   = ["hi", "hello", "good morning", "good evening", "how are you?"]                                                                              
-hi    = ["hi", "hello", "Hello too"]                    
+#ask list contains the greetings that the chatbot will respond to                                                                      
+ask   = ["hi", "hello", "good morning", "good evening", "how are you?"]  
+#hi list contains the chatbot's possible responses to greetings
+hi    = ["hi", "hello", "Hello too"]     
+#error list contains the chatbot's possible responses to questions that it does not understand
 error = ["sorry, i don't know", "what u said?","yes","i am a chatbot only" ]            
 
                                                                                                                                         
